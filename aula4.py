@@ -9,4 +9,6 @@ print("0.0, -1.55")
 
 print(type("Claudio"))
 print(type(0))
-prin
+print(type(1.1))
+print(type(True))
+print(type(False))
