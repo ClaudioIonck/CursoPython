@@ -8,4 +8,4 @@ chave = 12
 
 posicao = hash_function(chave)
 
-print(f"A chave {chave} deve ser armazenada na posição {posicao} da tabela de hash.")
+print(f"{chave} {posicao}")
