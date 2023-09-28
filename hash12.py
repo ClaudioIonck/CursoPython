@@ -1,11 +1,11 @@
+#questao12
+A_comprimento = 10
+
 def hash_function(key):
-    return key % A.length
+    return key % A_comprimento
 
-def main():
-    A = [None] * 10
-    A[hash_function(12)] = 10
+chave = 12
 
-    print(A[hash_function(12)])
+posicao = hash_function(chave)
 
-if __name__ == "__main__":
-    main()
+print(f"A chave {chave} deve ser armazenada na posição {posicao} da tabela de hash.")
